@@ -1,0 +1,125 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Internal Linking</title>
+    </head>
+    <body>
+        <a href="#about">Go to about</a><br><br>
+        <a href="#Home">Home Page</a>
+        <p>World Wide Web, HTML, HTTP
+World Wide Web WWW allows computer users to locate and view multimedia based documents over
+internet In 1989
+► Tim Berners-Lee of CERN (the European Organization for Nuclear Research) began to develop a
+technology for sharing information via hyperlinked text documents named HyperText Markup
+Language (HTML).
+► Berners-Lee proposed a new protocol for internet ,a system for document access .
+► Document form: Hypertext--- Pages? Documents? Resources?
+► Hypermedia – more than just text – images, sound, etc.
+► He wrote the Hypertext Transfer Protocol (HTTP)—a communications protocol used to send
+information over the web.
+► The URL (Uniform Resource Locator) specifies the address (i.e.,location) of the web page
+displayed
+in the browser window.
+► Each web page on the Internet is associated with a unique URL. URLs usually begin with http://.</p>
+        
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        Components of the URL
+http:// www.deitel.com/ books/downloads.html
+► The text http:// indicates that the HyperText Transfer Protocol (HTTP) should be used to obtain the
+resource.
+► Next in the URL is the server’s fully qualified hostname (for example, www.deitel.com)—the name
+of the web-server computer on which the resource resides.
+► The hostname www.deitel.com is translated into an IP (Internet Protocol) address—a numerical
+value that uniquely identifies the server on the Internet.
+► An Internet Domain Name System (DNS) server maintains a database of hostnames and their
+corresponding IP addresses and performs the translations automatically.
+► The remainder of the URL (/books/downloads.html) specifies the resource’s location (/books) and
+name (downloads.html) on the web server.
+► The location could represent an actual directory on the web server’s file system
+► For security reasons, however, the location is typically a virtual directory. The web server translates
+the virtual directory into a real location on the server, thus hiding the resource’s true location
+Making a Request and Receiving a Response
+When given a web page URL, a web browser uses HTTP to request the web page found at that address.
+► The web browser sends an HTTP request to the server.
+► The request (in its simplest form) is The word GET is an HTTP method indicating that the client
+wishes to obtain a resource from the server.
+► The remainder of the request provides the path name of the resource (e.g., an HTML5 document)
+and the protocol’s name and version number (HTTP/1.1).
+► The client’s request also contains some required and optional headers.
+► Any server that understands HTTP (version 1.1) can translate this request and respond appropriately
+The server first sends a line of text that indicates the HTTP version, followed by a numeric code and aphrase describing the status of the transaction.
+► The server first sends a line of text that indicates the HTTP version, followed by a numeric code and a
+phrase describing the status of the transaction.
+► For example
+► indicates success, whereas
+► informs the client that the web server could not locate the requested resource.
+► A complete list of numeric codes indicating the status of an HTTP transaction can be found at
+www.w3.org/Protocols/rfc2616/rfc2616-sec10.html.
+► Status code is a three-digit number; first digit specifies the general status
+1 => Informational
+2 => Success
+3 => Redirection
+4 => Client error
+5 => Server error
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+
+<br>
+         <h2 id="about">This is the about Page</h2><br>
+        <h2 id="Home">This is the home page</h2>
+        <p>1)Introduction to the Internet & WWW
+What is the Internet ? A huge collection of computers connected in a communications network.
+Internet is N/w of N/W’s and different devices in the network communicates with each other based on the
+low level protocol TCP/IP (Transport layer).TCP/IP standard allows a program on one computer to
+communicate with a program on another computer via internet.
+The World-Wide Web
+Origins - Tim Berners-Lee at CERN proposed the Web in 1989. Purpose is to allow scientists around the
+world to use the internet to have access to many databases of scientific work through their own computers.
+Document form: hypertext(text with embedded links to text in other documents. The units of information
+on the web have different names: pages, documents and resources. Hypermedia means a document contains
+more than just text( images, sound, etc.)
+Difference between web and internet
+Web
+Collection of software and protocols that helps to gather or deliver information during the communication.
+Web is information repository over internet.
+Internet
+Collection of computers and other devices connected each other and allows them to communicate each
+other. Internet is the interconnected network of networks
+2)Evolution of the Internet
+ARPAnet
+► late 1960s and early 1970s
+► US DoD developed large scale network,for communication
+► Network reliability ,robust network
+► DoD’s ARPA funded for the first project and named ARPAnet
+► ARPA(Advanced Research Project Agency)
+► Available to laboratories &universities conducted ARPA-funded research
+► BITnet(Because It’s Time N/W), CSnet(Computer Science Network)
+► late 1970s & early 1980s
+► BITnet by City University of New York</p>
+        
+    </body>
+
+</html>
